@@ -1,0 +1,152 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+
+  
+.bg {
+    /* The image used */
+    background-image: url("/pics/backgroung-image-unsplash.jpg");
+    width: 100%;
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.bg-blur {
+    /* The image used */
+    background-image: url("/pics/backgroung-image-unsplash-blur.jpg");
+    width: 100%;
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;   
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;   
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;   
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;   
+}
+
+h5{
+    font-family: 'Open Sans', sans-serif;   
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content-limiter{
+    position: absolute;
+    bottom:0;
+    padding: 3rem 10rem 2rem 2rem;
+    overflow: hidden;
+    border-radius: 0 16rem 0 0;
+    background-color: #ff630e;
+}
+
+.content-bg{
+    width: 40rem;
+    height: 40rem;
+    border-radius: 22rem;
+    background-color: #ff630e;
+    position: absolute;
+    left: -10%;
+    top: 50%;
+    overflow: hidden;
+}
+
+
+.content{
+    position: relative;
+    color: white;
+    width: 25rem;
+}
+
+
+
+
+
+#navbar {
+    overflow: hidden;
+    background-color: white;
+    margin-left: 40%;
+    border-radius: 0 0 0 2rem;
+  }
+  
+  /* Navbar links */
+  #navbar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.6rem;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    font-size: 1.4rem;
+  }
+
+  .highlight{
+     color: #ff630e;
+  }
+
+  .moving{
+    position: absolute;
+    left:60%;
+    top: 40%;
+  }
+
+  .moving img{
+    width: 15rem;
+    height: auto;
+  }
+
+  .disp{
+      width:100%;
+      height:auto;
+  }
+
+  .flex-container{
+      display: flex;
+      flex-direction: row;
+      position: absolute;
+      top: 20%;
+      left: 30%;
+      flex-wrap: wrap;
+  }
+
+  .flex-item{
+      width:18rem;
+      height:14rem;
+      background-color: white;
+      border-radius: 0 0 0 2rem;
+      margin: 2rem 2rem 1rem 2rem;
+  }
+
+  .flex-item h3{
+      padding-left: 2rem;
+      font-size: 1.6rem;
+      margin:0;
+      position: relative;
+      bottom: 6px;
+  }
