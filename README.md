@@ -3,15 +3,16 @@
 Redesign der schauwerk website  
 Erster draft  
 
+## added
+
+responsive navbar (wenn auch extrem)  
+alle baseseiten sind nun da  
+
 
 ### Bekannte Probleme
 
-Navbar beim resizen problematisch  
-nicht responsive  
-kein kreis unter text  
-punkt in navbar zu klein  
+kein kreis unter text   
 fehlender mediacontent  
 divs in events zu klein, komisch formatiert  
 kein randomness beim png kreis  
-  
 diverser weiterer kleinkram
