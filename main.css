@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    overflow: hidden;
   }
 
 
@@ -62,6 +63,7 @@ p{
     overflow: hidden;
     border-radius: 0 16rem 0 0;
     background-color: #ff630e;
+    z-index: 2;
 }
 
 .content-bg{
@@ -73,6 +75,7 @@ p{
     left: -10%;
     top: 50%;
     overflow: hidden;
+    z-index: 0;
 }
 
 
@@ -80,6 +83,7 @@ p{
     position: relative;
     color: white;
     width: 25rem;
+    z-index: 2;
 }
 
 
@@ -93,6 +97,8 @@ p{
     height: auto;
     background-color: white;
     border-radius: 0 0 0 2rem;
+    position: relative;
+    z-index: 2;
 }
 
   /* Navbar links */
@@ -120,10 +126,10 @@ p{
     margin-left:0.2rem;
   }
 
-  .moving{
+  #moving{
     position: absolute;
-    left:60%;
-    top: 40%;
+    height: auto;
+    z-index: 1;
   }
 
   .moving img{
