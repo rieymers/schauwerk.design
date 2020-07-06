@@ -19,6 +19,39 @@ body, html {
     overflow: hidden;
 }
 
+#main-page{
+    display: none;
+    cursor: pointer;
+}
+
+.center{
+    padding-top: 20rem;
+    text-align: center;
+    font-size: 10rem;
+    margin: 0;
+    text-shadow:
+   -1px -1px 0 #fff,  
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+     1px 1px 0 #fff;
+    
+     cursor: pointer;
+    
+}
+
+#main-landing h2{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+#main-landing{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: block;
+}
+
 .bg-blur {
     /* The image used */
     background-image: url("/pics/backgroung-image-unsplash-blur.jpg");
