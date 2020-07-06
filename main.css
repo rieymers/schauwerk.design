@@ -58,32 +58,29 @@ p{
 
 .content-limiter{
     position: absolute;
-    bottom:0;
-    padding: 3rem 10rem 2rem 2rem;
+    bottom:-30rem;
+    left:-10rem;
+    width: 60rem;
+    height: 60rem;
+    border-radius: 30rem;
     overflow: hidden;
-    border-radius: 0 16rem 0 0;
     background-color: #ff630e;
     z-index: 2;
 }
 
-.content-bg{
-    width: 40rem;
-    height: 40rem;
-    border-radius: 22rem;
-    background-color: #ff630e;
-    position: absolute;
-    left: -10%;
-    top: 50%;
-    overflow: hidden;
-    z-index: 0;
-}
 
 
 .content{
-    position: relative;
+    position: absolute;
     color: white;
-    width: 25rem;
+    width: 30rem;
+    left: 15rem;
+    top: 5rem;
     z-index: 2;
+}
+
+.content p{
+    font-size: 1.5rem;
 }
 
 
@@ -110,7 +107,7 @@ p{
     padding: 0.6rem;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.4rem;
+    font-size: 2rem;
     line-height: 2rem;
     margin: 0.2rem;
   }
@@ -142,21 +139,42 @@ p{
       height:auto;
   }
 
+  .container{
+      position: absolute;
+      right: 0;
+      width: 73rem;
+      height: 100%;
+  }
+
+  a{
+      text-decoration: none;
+      color: white;
+  }
+
+  a h3{
+      color: black;
+  }
+
   .flex-container{
       display: flex;
       flex-direction: row;
       position: absolute;
       top: 20%;
-      left: 30%;
       flex-wrap: wrap;
+      overflow: auto;
+      float: right;
   }
 
   .flex-item{
-      width:18rem;
-      height:14rem;
+      width:30rem;
+      height:18rem;
       background-color: white;
       border-radius: 0 0 0 2rem;
       margin: 2rem 2rem 1rem 2rem;
+  }
+
+  .flex-item img{
+      height: 250px;
   }
 
   .flex-item h3{
@@ -167,7 +185,7 @@ p{
       bottom: 6px;
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 1150px) {
     .navbar a {
       float: none;
       display: block;
@@ -175,12 +193,45 @@ p{
       text-align: left; /* If you want the text to be left-aligned on small screens */
     }
 
-    body{
+    body, html{
         overflow: visible;
     }
 
     .bg{
         overflow: visible;
+    }
+
+    
+    .flex-container{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 35%;
+        margin-left: 20rem;
+        flex-wrap: wrap;
+        overflow: auto;
+    }
+    
+
+  }
+
+  @media screen and (max-width:720px){
+      .content{
+        position: absolute;
+        color: white;
+        width: 20rem;
+        left: 15rem;
+        top: 5rem;
+        z-index: 2;
+    }
+
+    .content p{
+        font-size: 1rem;
+    }
+
+    .flex-container{
+        top: 35%;
+        margin-left: 40rem;
     }
 
   }
