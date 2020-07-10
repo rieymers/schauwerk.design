@@ -3,18 +3,18 @@
 Redesign der schauwerk website  
 Erster draft  
 
-## Baselayout : check
+## Baselayout : checked  
 
 ## added
 
 responsive navbar (wenn auch extrem)  
 alle baseseiten sind nun da  
 kreis somewhat workingish  
+mobile workingish  
+first draft of landing page (i like it actually a lot!)  
 
 
 ### Bekannte Probleme
  
 fehlender mediacontent  
-divs in events zu klein, komisch formatiert  
-kein randomness beim png kreis  
 diverser weiterer kleinkram
