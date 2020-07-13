@@ -19,6 +19,7 @@ body, html {
     overflow: hidden;
 }
 
+
 #main-page{
     display: none;
     cursor: pointer;
