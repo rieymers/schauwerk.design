@@ -15,11 +15,16 @@ Verschiebe die |div class="nav-active"| zu dem |a| unter dem die neue Seite unte
 
 In den |div class='flex-item'| einfach den Link im |img| aktualisieren.
 
+#### Was ist der z-index?
+
+Der definiert in welcher Ebene etwas gerendert wird. Wichtig damit der sich bewegende Kreis **hinter**  der orangenen Fläche gerendert wird.
 
 
-## Wichtige class
 
-#### .bg
+
+## Wichtige class es
+
+#### .bg-constructor
 
 Constructor  class für alle background images. Läd das Hintergrundbild und platziert es stehts auf der gesamten Seite.
 
@@ -58,4 +63,16 @@ Ja, noch schlimmer als das flex-item, aber soll das Bild ordentlich wrappen.
 #### .center
 
 Das schauwerk logo gerade.
+
+
+## JS 
+
+#### getRndInteger(min,max)
+
+Funktion für Random Werte innerhalb der vorgegebenen Grenzen. (Genutzt für die Platzierung des Kreises [weiß gestreift]) 
+
+#### changeDspPrp()
+
+(changeD**i**sp**lay**Pr**o**p**erty**)Als onClick function genutzt im Moment um von der Landingpage auf die Startseite zu kommen.
+
 
