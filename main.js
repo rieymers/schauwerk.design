@@ -12,3 +12,4 @@ function changeDspPrp(){
   var land=document.getElementById('main-landing').style.display='none';
   var cont=document.getElementById('main-page').style.display='block';
 }
+  
