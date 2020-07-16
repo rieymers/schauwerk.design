@@ -19,6 +19,23 @@ body, html {
     overflow: hidden;
 }
 
+.bg-constructor {
+    /*
+    Einfach diese class kopieren und 'constructor' gegen eindeutigen namen
+    austauschen und Bildlink aktualisieren.
+    */
+    background-image: url("/pics/neues-bild.dateiname");
+    width: 100%;
+    height: 100vh;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+
 #main-page{
     display: none;
     cursor: pointer;
@@ -90,7 +107,19 @@ p{
 
 .content-limiter{
     position: absolute;
-    bottom:-30rem;
+    bottom:-33rem;
+    left:-10rem;
+    width: 60rem;
+    height: 60rem;
+    border-radius: 30rem;
+    overflow: hidden;
+    background-color: #ff630e;
+    z-index: 2;
+}
+
+.content-limiter-project{
+    position: absolute;
+    bottom:-45rem;
     left:-10rem;
     width: 60rem;
     height: 60rem;
@@ -203,6 +232,7 @@ p{
       background-color: white;
       border-radius: 0 0 0 2rem;
       margin: 2rem 2rem 1rem 2rem;
+      cursor: pointer;
   }
 
   .flex-item img{
