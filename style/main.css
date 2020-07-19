@@ -30,6 +30,8 @@ iframe{
     overflow: hidden;
 }
 
+/*#############################################################################*/
+
 .bg-constructor {
     /*
     Einfach diese class kopieren und 'constructor' gegen eindeutigen namen
@@ -45,6 +47,8 @@ iframe{
     background-size: cover;
     overflow: hidden;
 }
+
+/*#############################################################################*/
 
 
 #main-page{
