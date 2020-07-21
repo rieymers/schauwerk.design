@@ -183,9 +183,13 @@ p{
     padding: 0.6rem;
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 2rem;
     margin: 0.2rem;
+  }
+
+  #spacer-schau{
+      padding-left: 3rem;
   }
 
 
